@@ -13,7 +13,7 @@ open Atom
 open Atom.FSharp
 
 [<ReflectedDefinition>]
-module YeomanHandler =
+module YeomanHandler = 
     type generator = {
         run : string -> unit
     }
