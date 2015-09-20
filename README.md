@@ -1,6 +1,6 @@
 # Ionide-Yeoman
 
-It's part of [Ionide](ionide.io) plugin suite.
+It's part of [Ionide](http://ionide.io) plugin suite.
 Scaffolding of F# projects in Atom editor
 
 ## Features
