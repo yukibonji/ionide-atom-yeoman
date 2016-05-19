@@ -1,4 +1,5 @@
 
+## [Deprecated]
 
 # Ionide-Yeoman 
 It's part of [Ionide](http://ionide.io) plugin suite.
