@@ -1,7 +1,7 @@
 {
   "name": "ionide-yeoman",
   "main": "./lib/yeoman",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "Scaffolding of F# projects in Atom editor",
   "repository": "https://github.com/Ionide/ionide-yeoman",
   "license": "MIT",
@@ -9,12 +9,12 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "consumedServices": {
-        "yeoman-environment": {
-             "versions": {
-               "^1.0.0": "consumeYeomanEnvironment"
-             }
-        }
-    },
+    "yeoman-environment": {
+      "versions": {
+        "^1.0.0": "consumeYeomanEnvironment"
+      }
+    }
+  },
   "dependencies": {
     "jquery": "2.1.3",
     "atom-space-pen-views": "2.0.5"
