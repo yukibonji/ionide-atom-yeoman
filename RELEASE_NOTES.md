@@ -1,3 +1,6 @@
+### 2.0.0 - 18.10.2016
+* Deprecated, remove any functionality
+
 ### 1.0.2 - 02.11.2015
 * Update Readme
 
