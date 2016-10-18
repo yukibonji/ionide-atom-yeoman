@@ -13,13 +13,13 @@ open Atom
 open Atom.FSharp
 
 [<ReflectedDefinition>]
-module YeomanHandler = 
+module YeomanHandler =
     type generator = {
         run : string -> unit
     }
 
     let activate (gen : generator) =
-        Globals.atom.commands.add("atom-workspace", "F#:New-project", (fun _ -> gen.run "fsharp") |> unbox<Function>) |> ignore
+        // Globals.atom.commands.add("atom-workspace", "F#:New-project", (fun _ -> gen.run "fsharp") |> unbox<Function>) |> ignore
         ()
 
 
